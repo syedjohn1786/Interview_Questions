@@ -35,9 +35,57 @@ Ans : In egrep, you can search for more than one string at same time
       Syntax : egrep "key1|key2|key3" file_name;
       Ex: egrep "john|khaja" names.txt
 
+11) How can you read a file without using cat command ?
+Ans : You can read the contents of a file in several ways without using the cat command
+      You can use "less" and "more" commands
+      less file_name;
+      more file_name;
 
+12) What is the advantage of using less command ?
+Ans : less command allows you to view text one screen at a time. This is useful for navigating through large files or long command outputs. You can scroll up and down easily using the arrow keys
+      You can search for specific text within the file by typing / followed by the search term and pressing Enter. This makes it easy to locate and highlight specific content in the file.
+      In addition to scrolling, less provides navigation features. You can move forward one page at a time with the spacebar, move backward with the b key, and jump to the beginning or end of the file with g and G respectively. This makes it more versatile for exploring file contents.
 
+13) How to check a file's permissions ?
+Ans : using command "ls -l"
+      using command "getfacl file_name"; 
+      getfacl command is used to retrieve and display the Access Control Lists (ACLs) of files and directories. ACLs provide a more fine-grained level of permissions than the traditional owner-group-world permission system.
+      output of getfacl command will be like below :
 
+      # file: /path/to/file
+      # owner: user1
+      # group: group1
+      user::rwx
+      group::r--
+      other::---
+
+14) How to check the IP of your linux server ?
+Ans : using command "ifconfig" and "ip addr"
+
+15) How to read the top 5 lines in a file ?
+Ans : using command "head -n 5 file_name";
+
+16) How to read the last 5 lines in a file ?
+Ans : using command "tail -n 5 file_name";
+
+17) How to list hidden files ?
+Ans : use the command "ls -la"
+
+18) How to see all the recently used commands ?
+Ans : using the command "history"
+
+19) What is root ?
+Ans : root is the admin or super user
+      The root user has the highest level of privileges and can perform tasks that regular users cannot, such as modifying system files and installing software system-wide.
+      The forward slash (/) is also called the "root directory." It is the top-level directory in the file system hierarchy. All other directories and files are located beneath the root directory. For example, /home is a subdirectory of the root directory.
+
+20) What is inode and how to find it for a file?
+Ans : inode (index node)
+      It contains metadata about the file, excluding its name and actual data. 
+      inode conntains file_type, file_permissions, file_size, Timestamps: Information about when the file was created, last accessed, and last modified.
+
+      use command "ls -li file_name" (for a specific file)
+      use command "ls -li" (for all the files)
 
 
 
