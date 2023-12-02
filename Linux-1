@@ -1,0 +1,46 @@
+#Linux Interview questions
+
+1) What is the use of echo command? 
+Ans : echo command is used to display the text or values on the terminal
+
+2) How to check computer name or hostname in Linux ?
+Ans : we can check using 'hostname' command
+
+3) How to check the current user in Linux terminal ?
+Ans : we can check using 'whoami' command
+
+4) How to check your current path or directory  you're working in ?
+Ans : using 'pwd' command
+
+5) Explain the difference between relative and absolute path. 
+Ans : Relative Path - start from current working directory
+      Absolute Path - The full path to a file or directory
+
+6) Which command is used to create a file in Linux ?
+Ans : touch file_name;  vi file_name;  vim file_name; nano file_name;
+
+7) How will you edit an existing file on a Linux server ?
+Ans : using  command like :  vim file_name;  nano file_name;
+
+8) How to rename a file in Linux ?
+Ans : using 'mv' command
+      mv old_file_name  new_file_name;
+
+9) How to search for a string in Linux ?
+Ans : using 'grep' command
+      grep word_to_be_searched  file_name;
+
+10) Difference between grep and egrep ?
+Ans : In egrep, you can search for more than one string at same time
+      Syntax : egrep "key1|key2|key3" file_name;
+      Ex: egrep "john|khaja" names.txt
+
+
+
+
+
+
+
+
+
+
