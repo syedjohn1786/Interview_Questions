@@ -87,7 +87,56 @@ Ans : inode (index node)
       use command "ls -li file_name" (for a specific file)
       use command "ls -li" (for all the files)
 
+21) Which command can you use for finding files on Linux system ?
+Ans : using "find" and "locate" commands
+      Ex : locate names.txt (this command gives the full path of names.txt file as output)
 
+22) Commands for counting words and lines ?
+Ans : wc file_Name;  (for word count)
+      wc -l file_name;  (for line count)
+
+23) How can you combine two commands?
+Ans : we can do by using pipe (|)
+      command1 | command2;
+      the output of first command is given as input to the second command
+
+24) How to view the difference between two files ?
+Ans : using "diff" command
+      diff file1 file2;
+
+25) What is the use of shred command ?
+Ans : shred command is used to delete a file permanently which is unable to recover
+      shred -u file_name;
+      shred --remove file_name;
+
+26) How to check system architecture info ?
+Ans : using "lscpu" and "dmidecode" commands
+
+27) How to combbine two files ?
+Ans : using command " cat file1 file2 > file3"
+
+28) How can you find the type of file ?
+Ans : using command "file file_name";
+
+29) How to sort the content of a file ?
+Ans : usinf command " sort file_name";
+
+30) Different ways to access a Linux server remotely? (from a windows machine)
+Ans : using external tools like "putty, gitbash etc"
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
 
 
 
