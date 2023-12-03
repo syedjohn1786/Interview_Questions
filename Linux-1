@@ -124,7 +124,46 @@ Ans : usinf command " sort file_name";
 30) Different ways to access a Linux server remotely? (from a windows machine)
 Ans : using external tools like "putty, gitbash etc"
 
+31) What are different types of permisssions for a file in Linux ?
+Ans : A file have 3 types of permissions : read (r), write (w), execute (x)
 
+32) How to check the permissions given to a file ?
+Ans : using command "ls -l"
+
+33) Which permission allow a user to run an executable file (script) ?
+Ans : we need to provide execute (x) permission to the user
+
+34) How to write the output of a command into a file ?
+Ans : command > file_you_need_to_store_output;
+      command >> file_you_need_to_store_output;
+
+35) How to write something in a file without deleting the existing content ?
+Ans : command >> file_you_need_to_store_output;
+
+36) How to redirect an error of a command into a file ?
+Ans : we need to use "2>"
+      to redirect both error and output , we need to use "2>&1"
+
+37) How to automate any task or script ?
+Ans : using cron jobs
+      for which we have crontab and AT command
+
+38) How to check scheduled jobs ?
+Ans : using command " crontab -l"
+
+39) What is the meaning of this cron job mentioned below in parenthesis ? 
+      ( * * * * * )
+Ans :  first star * => minutes (0-59)
+       second star * => hour (0-23)
+       third star * => day of the month (1-31)
+       fourth star * => month (1-12)
+       fifth star * => day of the week (0-6)
+
+40) If your cron job didnt work, how would you check ?
+Ans : check system time
+      crontab entry
+      check /var/log/messages
+      
 
 
 
