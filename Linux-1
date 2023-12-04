@@ -164,8 +164,58 @@ Ans : check system time
       crontab entry
       check /var/log/messages
       
+41) What is daemon service ?
+Ans : Service that keep running in background
+      Ex : httpd, sshd, chronyd
 
+42) How to check if a service is running or not ?
+Ans : using command "systemctl status service_name"
 
+43) How to start/stop any service ?
+Ans : using command "systemctl start service_name"
+      using command "systemctl stop service_name"
+
+44) How to check for free disk space ?
+Ans : using command "df -h"
+
+45) How to check the size of a directory's content ?
+Ans : using command "du -h"
+      Ex : du -h tutorials/java/core-java
+
+46) How to check cpu usage for a process ?
+Ans : using "top" command, we can check
+
+47) What is a process in Linux ?
+Ans : Process is an instance of a running program
+      When you start an application/program or execute a command, a process is created
+      for every process, a unique number is assigned which is called PID (Process ID)
+
+48) How to check if a process/application is running or not ?
+Ans : using "ps" command, we can check .....ps = process status
+      Ex : ps -ef | httpd
+
+49) How to stop/terminate a running process ?
+Ans : using "kill" command
+      Ex : kill process_id
+
+50) Difference between kill and kill -9 ?
+Ans : kill -9 will terminate the program forcefully
+
+51) How to check if a IP/Server is accessible or not ?
+Ans : using "ping" or "telnet" command
+
+52) Which command to use to get info about ports ?
+Ans : using "netstat" command......netstat = network statistics
+
+53) How to check open port on Linux system ?
+Ans : using command "netstat -tuln"
+      This command shows a list of listening (-l) TCP (-t) and UDP (-u) ports along with the numerical representation of port numbers (-n).
+
+54) How to check network interfaces in Linux ?
+Ans : using command "ifconfig" and "netstat" command
+
+55) Difference between telnet and ssh ?
+Ans : ssh is secured and telnet is not
 
 
 
